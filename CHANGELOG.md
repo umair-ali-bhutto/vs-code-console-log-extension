@@ -4,12 +4,23 @@ All notable changes to the "vs-code-console-log-extension" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+<!-- ## [UNRELEASED] 08-JAN-2025 -->
+
+## [0.0.3] 08-JAN-2025
+
+### Fixed
+
+- Readme.md File Had Mispell
+- Added Previous Vs Code Version Compatibility
+
 ## [0.0.2] 08-JAN-2025
 
 ### Added
+
 - Added Marketplace Icon
 
 ### Changed
+
 - Changed Version
 <!-- ### Removed -->
 

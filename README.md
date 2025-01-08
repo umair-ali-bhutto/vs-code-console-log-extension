@@ -10,7 +10,7 @@ A simple Visual Studio Code extension that adds a `console.log()` statement to y
 
 ## Author
 
-- [**_Umair Ali Bhutto_**](https://github.com/umair-ali-bhutto/) 
+- [**_Umair Ali Bhutto_**](https://github.com/umair-ali-bhutto/)
 
 [![Umair Ali Bhutto](https://img.shields.io/badge/%40Author-Umair_Ali_Bhutto-green?style=plastic&logo=github&logoColor=white)](https://github.com/umair-ali-bhutto/)
 
@@ -23,12 +23,10 @@ A simple Visual Studio Code extension that adds a `console.log()` statement to y
 - [License](#license)
 - [Contributing](#contributing)
 
-
-## Features aa
+## Features
 
 - Adds `console.log()` at the cursor position when `Ctrl+Shift+J` is pressed.
 - Supports both empty log insertion and inserting the selected text as the log output.
-
 
 ## Installation
 
@@ -36,21 +34,24 @@ A simple Visual Studio Code extension that adds a `console.log()` statement to y
 2. Press `Ctrl+P` and type `ext install vs-code-console-log-extension`.
 3. Press Enter to install the extension.
 
-
 ## Usage
 
 - Select any text or leave the cursor in an empty space.
 - Press `Ctrl+Shift+J` to insert `console.log()`.
 
-
 ## Release Notes
 
-### 0.0.1
-Initial release of console.log() helper
+### 0.0.3
+
+Added Previous Vs Code Version Compatibility
 
 ### 0.0.2
+
 Added Icon
 
+### 0.0.1
+
+Initial release of console.log() helper
 
 ## License
 
