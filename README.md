@@ -1,65 +1,57 @@
-# vs-code-console-log-extension README
+# Umair Console Log Helper
 
-This is the README for your extension "vs-code-console-log-extension". After writing up a brief description, we recommend including the following sections.
+<p align="center">
+  <a href="https://github.com/umair-ali-bhutto/" target="_blank">
+    <img src="https://umair-ali-bhutto.github.io/assets/CodePenIcon/logo.png" width="100px" height="100px" alt="logo"><br/>
+  </a>
+</p>
 
-## Features
+A simple Visual Studio Code extension that adds a `console.log()` statement to your code with a keyboard shortcut.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Author
 
-For example if there is an image subfolder under your extension project workspace:
+- [**_Umair Ali Bhutto_**](https://github.com/umair-ali-bhutto/) 
 
-\!\[feature X\]\(images/feature-x.png\)
+[![Umair Ali Bhutto](https://img.shields.io/badge/%40Author-Umair_Ali_Bhutto-green?style=plastic&logo=github&logoColor=white)](https://github.com/umair-ali-bhutto/)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Table of Contents
 
-## Requirements
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Release Notes](#Release-Notes)
+- [License](#license)
+- [Contributing](#contributing)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-## Extension Settings
+## Features aa
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- Adds `console.log()` at the cursor position when `Ctrl+Shift+J` is pressed.
+- Supports both empty log insertion and inserting the selected text as the log output.
 
-For example:
 
-This extension contributes the following settings:
+## Installation
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Open VS Code.
+2. Press `Ctrl+P` and type `ext install vs-code-console-log-extension`.
+3. Press Enter to install the extension.
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Usage
+
+- Select any text or leave the cursor in an empty space.
+- Press `Ctrl+Shift+J` to insert `console.log()`.
+
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
+Initial release of console.log() helper
 
-Initial release of ...
+## License
 
-### 1.0.1
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Fixed issue #.
+## Contributing
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to create an issue or submit a pull request.

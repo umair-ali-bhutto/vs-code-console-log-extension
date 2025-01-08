@@ -12,10 +12,19 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vs-code-console-log-extension.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "vs-code-console-log-extension.addConsoleLog",
+        "title": "Add console.log()"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "vs-code-console-log-extension.addConsoleLog",
+        "key": "ctrl+shift+j",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
@@ -29,5 +38,9 @@
     "eslint": "^9.16.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umair-ali-bhutto/vs-code-console-log-extension.git"
   }
 }
