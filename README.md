@@ -45,8 +45,12 @@ A simple Visual Studio Code extension that adds a `console.log()` statement to y
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 Initial release of console.log() helper
+
+### 0.0.2
+Added Icon
+
 
 ## License
 

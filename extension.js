@@ -7,7 +7,6 @@ const vscode = require('vscode');
 
 /**
  * @author umair.ali
- * @version 1.0
  * @since 08-JAN-2025
  * @param {vscode.ExtensionContext} context
  */
