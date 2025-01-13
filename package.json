@@ -2,14 +2,35 @@
   "name": "vs-code-console-log-extension",
   "displayName": "vs-code-console-log-extension",
   "description": "Adds console.log() Using Keyboard Shortcut",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": ">=1.80.0"
   },
+  "homepage": "https://github.com/umair-ali-bhutto/vs-code-console-log-extension",
+  "keywords": [
+    "console.log",
+    "logging",
+    "debugging",
+    "javascript",
+    "typescript",
+    "developer tools",
+    "productivity"
+  ],
   "categories": [
+    "Programming Languages",
     "Other"
   ],
-  "activationEvents": [],
+  "contributors": [
+    {
+      "name": "Umair Ali Bhutto",
+      "githubUsername": "umair-ali-bhutto",
+      "url": "https://github.com/umair-ali-bhutto"
+    }
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
@@ -39,10 +60,24 @@
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
   },
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "publisher": "umair-ali-bhutto",
   "repository": {
     "type": "git",
     "url": "https://github.com/umair-ali-bhutto/vs-code-console-log-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/umair-ali-bhutto/vs-code-console-log-extension/issues"
+  },
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadges.dev/version/umair-ali-bhutto.vs-code-console-log-extension.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=umair-ali-bhutto.vs-code-console-log-extension",
+      "description": "Visual Studio Marketplace Version Badge"
+    }
+  ],
+  "galleryBanner": {
+    "color": "#0f0f0f",
+    "theme": "dark"
   }
 }

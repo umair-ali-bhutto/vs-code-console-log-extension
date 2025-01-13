@@ -1,62 +1,138 @@
-# Umair Console Log Helper
+<h1 align="center">🚀 JavaScript Console Log Helper</h1>
+
+---
 
 <p align="center">
+
   <a href="https://github.com/umair-ali-bhutto/" target="_blank">
     <img src="https://umair-ali-bhutto.github.io/assets/CodePenIcon/logo.png" width="100px" height="100px" alt="logo"><br/>
   </a>
 </p>
 
-A simple Visual Studio Code extension that adds a `console.log()` statement to your code with a keyboard shortcut.
+🎉 **Boost your debugging game!** This Visual Studio Code extension makes adding `console.log()` statements as simple as a single shortcut. Perfect for JavaScript And Typscript developers who love to code smart, not hard.
 
-## Author
+---
 
-- [**_Umair Ali Bhutto_**](https://github.com/umair-ali-bhutto/)
+## 🎥 Demo
+
+✨ See the magic in action! ✨
+
+![Demo](https://github.com/umair-ali-bhutto/vs-code-console-log-extension/assets/demo.gif)
+
+---
+
+## ✍️ Author
+
+Created with ❤️ by [**Umair Ali Bhutto**](https://github.com/umair-ali-bhutto/)
 
 [![Umair Ali Bhutto](https://img.shields.io/badge/%40Author-Umair_Ali_Bhutto-green?style=plastic&logo=github&logoColor=white)](https://github.com/umair-ali-bhutto/)
 
-## Table of Contents
+---
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Release Notes](#Release-Notes)
-- [License](#license)
-- [Contributing](#contributing)
+## 📖 Table of Contents
 
-## Features
+- [✨ Features](#-features)
+- [📥 Installation](#-installation)
+- [⚡ Usage](#-usage)
+- [📝 Release Notes](#-release-notes)
+- [🏅 Badges](#-badges)
+- [📜 License](#-license)
+- [🤝 Contributing](#-contributing)
 
-- Adds `console.log()` at the cursor position when `Ctrl+Shift+J` is pressed.
-- Supports both empty log insertion and inserting the selected text as the log output.
+---
 
-## Installation
+## ✨ Features
 
-1. Open VS Code.
-2. Press `Ctrl+P` and type `ext install vs-code-console-log-extension`.
-3. Press Enter to install the extension.
+🔥 **Supercharge Your Workflow**
 
-## Usage
+- Instantly adds `console.log()` at the cursor position with a single shortcut: `Ctrl+Shift+J`.
+- Auto-inserts the selected text as the log output for smarter debugging.
+- Minimal, efficient, and tailored for speed!
 
-- Select any text or leave the cursor in an empty space.
-- Press `Ctrl+Shift+J` to insert `console.log()`.
+---
 
-## Release Notes
+## 📥 Installation
 
-### 0.0.3
+🚀 Get started in three simple steps:
 
-Added Previous Vs Code Version Compatibility
+1. Open **VS Code**.
+2. Press `Ctrl+P` and type:
+   ```plaintext
+   ext install vs-code-console-log-extension
+   ```
+3. Hit **Enter** and let the extension work its magic!
 
-### 0.0.2
+Can Also Install Using Gui Using `Ctrl+Shift+X` When Extensions Panel Opens Search In The Search Box `vs-code-console-log-extension`
 
-Added Icon
+---
 
-### 0.0.1
+## ⚡ Usage
 
-Initial release of console.log() helper
+⚡ It's as simple as this:
 
-## License
+- **Option 1**: Highlight the variable or text you want to log.
+- **Option 2**: Place your cursor where you want the log to appear.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Then, press:
 
-## Contributing
+```plaintext
+Ctrl + Shift + J
+```
 
-Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to create an issue or submit a pull request.
+Voilà! Debugging made delightful. 🎉
+
+---
+
+## 📝 Release Notes
+
+### 🔨 V-0.0.4
+
+- Updated Readme.md File
+- Fixed Issue [#1](https://github.com/umair-ali-bhutto/vs-code-console-log-extension/issues/1)
+
+### 🚀 V-0.0.3
+
+- Added compatibility with previous VS Code versions.
+
+### 🎨 V-0.0.2
+
+- Introduced an awesome new icon for instant recognition.
+
+### 🎉 V-0.0.1
+
+- Initial release of the Console Log Helper extension!
+
+---
+
+## 🏅 Badges
+
+- **Version**: ![Version](https://vsmarketplacebadges.dev/version/umair-ali-bhutto.vs-code-console-log-extension.svg)
+- **Installs**: ![Installs](https://vsmarketplacebadges.dev/installs/umair-ali-bhutto.vs-code-console-log-extension.svg)
+- **Rating**: ![Rating](https://vsmarketplacebadges.dev/rating/umair-ali-bhutto.vs-code-console-log-extension.svg)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+Check out the full license details [here](LICENSE).
+
+---
+
+## 🤝 Contributing
+
+🌟 **Join the community!**  
+Got ideas, suggestions, or bug fixes? Here’s how you can contribute:
+
+1. **Fork** the repository.
+2. Or **Clone** it to your local machine using `git clone https://github.com/umair-ali-bhutto/vs-code-console-log-extension.git`.
+3. Create a **new branch** for your feature or bug fix.
+4. Submit a **pull request** with your amazing changes!
+
+---
+
+✨ **"Debugging is an art; let's make it stylish!"**
+
+[🔗 Check out my other projects](https://github.com/umair-ali-bhutto/) and don’t forget to ⭐ this repository if you find it helpful! 🌟
+
+---
