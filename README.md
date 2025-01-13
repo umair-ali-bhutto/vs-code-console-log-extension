@@ -106,9 +106,8 @@ Voilà! Debugging made delightful. 🎉
 
 ## 🏅 Badges
 
-- **Version**: ![Version](https://vsmarketplacebadges.dev/version/umair-ali-bhutto.vs-code-console-log-extension.svg)
-- **Installs**: ![Installs](https://vsmarketplacebadges.dev/installs/umair-ali-bhutto.vs-code-console-log-extension.svg)
-- **Rating**: ![Rating](https://vsmarketplacebadges.dev/rating/umair-ali-bhutto.vs-code-console-log-extension.svg)
+- **Installs**: ![Installs](https://raster.shields.io/visual-studio-marketplace/i/umair-ali-bhutto.vs-code-console-log-extension)
+- **Rating**: ![Rating](https://raster.shields.io/visual-studio-marketplace/r/umair-ali-bhutto.vs-code-console-log-extension)
 
 ---
 

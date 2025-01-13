@@ -71,9 +71,9 @@
   },
   "badges": [
     {
-      "url": "https://vsmarketplacebadges.dev/version/umair-ali-bhutto.vs-code-console-log-extension.svg",
+      "url": "https://raster.shields.io/visual-studio-marketplace/i/umair-ali-bhutto.vs-code-console-log-extension",
       "href": "https://marketplace.visualstudio.com/items?itemName=umair-ali-bhutto.vs-code-console-log-extension",
-      "description": "Visual Studio Marketplace Version Badge"
+      "description": "Visual Studio Installs Badge"
     }
   ],
   "galleryBanner": {
