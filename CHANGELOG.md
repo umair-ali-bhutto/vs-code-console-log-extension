@@ -8,6 +8,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [V-0.0.5] 29-JAN-2025
+
+### Fixed
+
+- Fixed Demo Video Not Working Issue
+- Fixed Issue [#3](https://github.com/umair-ali-bhutto/vs-code-console-log-extension/issues/3)
+
+### Added
+
+- Added Logic To Show Extension Enabled Message Once
+
+---
+
 ## [V-0.0.4] 13-JAN-2025
 
 ### Fixed

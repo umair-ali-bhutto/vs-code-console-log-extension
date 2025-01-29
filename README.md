@@ -17,7 +17,7 @@
 
 ✨ See the magic in action! ✨
 
-![Demo](https://github.com/umair-ali-bhutto/vs-code-console-log-extension/assets/demo.gif)
+![Demo](https://umair-ali-bhutto.github.io/assets/vs-code-extension/demo.gif)
 
 ---
 
@@ -84,6 +84,13 @@ Voilà! Debugging made delightful. 🎉
 ---
 
 ## 📝 Release Notes
+
+### 🔨 V-0.0.5 (29-JAN-2025)
+
+- Added Logic To Show Extension Enabled Message Once
+- Fixed Demo Video Not Working Issue
+- Fixed Issue [#3](https://github.com/umair-ali-bhutto/vs-code-console-log-extension/issues/3)
+
 
 ### 🔨 V-0.0.4
 

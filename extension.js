@@ -11,33 +11,18 @@ const vscode = require('vscode');
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-
-	console.log('✨ umair.ali Says Congratulations, your extension "vs-code-console-log-extension" is now active!');
-	vscode.window.showInformationMessage('✨ umair.ali Says Congratulations, your extension "vs-code-console-log-extension" is now active!');
+	const extensionStateKey = 'showWelcomeMessage';
+	const hasShownMessage = context.globalState.get(extensionStateKey);
+	if (!hasShownMessage) {
+		vscode.window.showInformationMessage('✨ umair.ali Says Congratulations, your extension "vs-code-console-log-extension" is now active!');
+		context.globalState.update(extensionStateKey, true);
+	}
 
 	let disposable = vscode.commands.registerCommand('vs-code-console-log-extension.addConsoleLog', function () {
 		const editor = vscode.window.activeTextEditor;
 
 		if (editor) {
-			/////////OLD
-			// const document = editor.document;
-			// const selection = editor.selection;
-			// const selectedText = document.getText(selection);
 
-			// const logText = selectedText
-			// 	? `console.log('${selectedText}: ', ${selectedText});`
-			// 	: "console.log('');";
-
-			// const line = document.lineAt(selection.active.line);
-			// const nextLinePosition = line.range.end.translate(0, 0);
-
-			// editor.edit(editBuilder => {
-			// 	editBuilder.insert(nextLinePosition, `\n${logText}\n`);
-			// });
-
-
-
-			////////////////////////// WORKS
 			const document = editor.document;
 			const selection = editor.selection;
 			const selectedText = document.getText(selection);
@@ -64,9 +49,9 @@ function activate(context) {
 }
 
 // This method is called when your extension is deactivated
-function deactivate() {
-	// console.log('Your extension "vs-code-console-log-extension" by umair.ali is now In-active! 🔥');
-	// vscode.window.showInformationMessage('Your extension "vs-code-console-log-extension" by umair.ali is now In-active! 🔥');
+function deactivate(context) {
+	// Reset the flag so the message will be shown the next time the extension is activated
+	context.globalState.update('showWelcomeMessage', false);
 }
 
 module.exports = {
